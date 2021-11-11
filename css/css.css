@@ -1,0 +1,203 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    color: white;
+	background:black; 
+    
+}
+
+#cabezera {
+	background: #333;
+	color: white;
+	height: 60px;
+    position: fixed;
+    width: 100%;
+}	
+#cabezera a {
+	color: white;
+}
+
+#portada {
+	float: left;
+	padding: 20px 0 0 20px;
+	text-decoration: none;
+}
+
+#header {
+        margin:auto;
+        float: right;
+    }
+    
+    ul, ol {
+        list-style:none;
+    }
+    
+    .nav > li {
+        float:left;
+    }
+    
+    .nav li a {
+        background-color: #333;
+        color:#fff;
+        text-decoration:none;
+        padding:19px 12px;
+        display:block;
+    }
+    
+    .nav li a:hover {
+        background-color:#434343;
+    }
+    
+    .nav li ul {
+        display:none;
+        position:absolute;
+        min-width:140px;
+    }
+    
+    .nav li:hover > ul {
+        display:block;
+    }
+    
+    .nav li ul li {
+        position:relative;
+    }
+    
+    .nav li ul li ul {
+        right:-140px;
+        top:0px;
+    }
+               
+.gif {
+    width: 25%;
+    padding-left: 30%;
+    padding-top: 20px;
+}
+section{
+    margin-left: 1%;
+}
+
+h1{
+    padding-top: 80px;
+}
+.actores{
+    width: 250px;
+    height: 300px;
+}
+
+#trailer2{
+    padding-left: 50%;
+}
+#tabla1{
+    border: 3px solid white;
+    width: 25%;
+    text-align: center;
+}
+td,th{
+    border: 1px solid white;
+}
+footer{
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+}
+.enlace{
+    color: white;
+}
+footer{
+    margin-top: 10%;
+}
+#inicio23{
+    display: flex;
+    justify-content: space-between;
+}
+.trailer{
+    order: 2;
+}
+#fotos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.vid2{
+    width: 600px;
+    height: 400px;
+}
+.cajas{
+    width: 25%;
+    height: 25%;
+}
+#cajaspers{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+}
+.per1{
+    width: 25%;
+    height: 25%;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+#cinescajas{
+    display: flex;
+    justify-content: space-between;
+}
+.ocine1{
+    width: 40%;
+    height: 25%;
+    padding-left: 25px;
+}
+.cines{
+    width: 300px;
+    height: 200px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+#fotos99{
+    display: flex;
+    justify-content: space-between;
+}
+#fotocine{
+    display: flex;
+    justify-content: space-between;
+}
+.cinevendrell{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.qwer{
+    width: 25%;
+    height: 25%;
+}
+.cinevendrell ol{
+    height: 20%;
+}
+.per1{
+    display: flex;
+    flex-direction: column;
+}
+
+.fotos99{
+    text-align: center;
+}
+.titulos{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.test{
+    margin-top: 2%;
+    border: dotted;
+    padding: 2%;
+}
+.foto2{
+    width: 30%;
+    height: 40%;
+}
+.portada{
+    margin-top: 19%;
+}
